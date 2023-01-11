@@ -24,8 +24,7 @@ main{
 #topo{
   display: grid;
   color:white; 
-  text-align: center;
-  
+  text-align: left;
 }
 
 h1{
@@ -44,7 +43,7 @@ h2{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 200;
   font-size: 2rem;
-   margin: 20px;
+  margin: 20px;
 }
 
 /* Navbar  */
