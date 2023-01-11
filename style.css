@@ -1,0 +1,214 @@
+body{
+  margin-right: 0;
+  padding: 0;
+  display: grid;
+}
+
+main{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Parte 1 - Main  */
+
+.bg-image{
+  background-image: url(https://scontent.fudi1-2.fna.fbcdn.net/v/t39.30808-6/217635507_533987327745485_5026437894591079180_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_eui2=AeESHeOenPMQk2yP7xRILBas00iLf8XANpXTSIt_xcA2lWambOkmfmFtATEgNXc-XniQFPUNdCdPzercfgd6Fquo&_nc_ohc=c9pqS1XzfcYAX85nR9l&_nc_ht=scontent.fudi1-2.fna&oh=00_AfCib2N8ny5LJ4oy_2Adv07RPZzsBSvZ4JArrHHvQ2y1yg&oe=63C3C39E);
+  background-size: cover;
+  background-repeat: no repeat;
+  height: 50vw;
+  opacity: .8;
+}
+
+#topo{
+  display: grid;
+  color:white; 
+  text-align: left;
+}
+
+h1{
+  font-family: 'Parisienne', cursive;
+  font-size: 4rem;
+  margin-top: 12vmin;
+
+}
+
+h2{
+  font-family: 'Parisienne', cursive;
+  font-size: 3rem;
+}
+
+#topo p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+   margin: 20px;
+}
+
+/* Navbar  */
+
+.nav-background{
+  background: rgba(214, 179, 154, 0.8);
+  height: 9vmin;
+}
+
+.navbar-text-style{
+  color: #715b4b !important;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Carousel */
+
+.carousel-style{
+  width: 150vmin !important;
+  opacity: .8;
+  margin: auto !important;
+  padding: 5vmin;
+}
+
+/* Sobre o Casal  */
+
+#sobre{
+  margin: auto;
+  text-align: center;
+  background: rgb(214, 179, 154);
+  opacity:.8;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-top: 10vmin;
+}
+
+#sobre p{
+  padding: 5vmin;
+}
+
+/* Info - Cerimônia */
+
+#info{
+  background:#F2E1E1;
+  color: rgb(186, 145, 115);
+  text-align: center;
+}
+
+#info h2{
+  padding-top: 5vmin;
+  padding-bottom: 3vmin;
+}
+
+.info-detalhes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 7vmin;
+}
+
+.info-detalhes h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  grid-row: 1;
+}
+
+.info-detalhes p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.horario{
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#info img{
+  opacity: .7;
+}
+
+/* Confirmar a Presenca */
+
+#confirmar{
+  background-color: #D6B39A;
+  opacity:.8;
+  color: white;
+  text-align: center;
+}
+
+.confirmar-text{
+  padding-top: 10vmin;
+}
+
+#confirmar p{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-top: 5vmin;
+  text-decoration: underline;
+}
+
+.formulario{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-top: 5vmin;
+}
+
+.presenca{
+  margin-bottom: 5vmin;
+}
+
+input[type="text"]{
+  background: white;
+  border: 1vmin solid #D6B39A;
+  border-radius: 2vmin;
+  width: 70vmin;
+}
+
+.mensagem{
+  height: 30vmin;
+  width: 70vmin;
+  background: white;
+  border: 1vmin solid #D6B39A;
+  border-radius: 2vmin;
+}
+
+button{
+  background: #F2E1E1;
+  border: .5vmin solid #F2E1E1;
+  border-radius: 1vmin;
+  color: #ba9173;
+  margin: 5vmin;
+}
+
+button:hover{
+  background: white;
+  border: .5vmin solid #D6B39A;
+  border-radius: 1vmin;
+  color: #D6B39A;
+}
+
+a i{
+  font-size: 2rem;
+  margin: 3vmin;
+  color: white;
+}
+
+/* Footer  */
+
+footer p{
+  background: #ba9173;
+  height: 20vmin;
+  margin: auto;
+  padding: 5vmin;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
