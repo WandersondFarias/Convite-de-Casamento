@@ -24,7 +24,8 @@ main{
 #topo{
   display: grid;
   color:white; 
-  text-align: left;
+  text-align: center;
+  
 }
 
 h1{
